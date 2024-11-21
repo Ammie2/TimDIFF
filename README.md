@@ -43,7 +43,7 @@ We use Verismith to create our data test. So if you want to generate Verilog mod
 **Environment dependencies:**
 1. **Vivado 2023.2 and above**
 2. **Iverilog 11.0(stable) and above**
-3. **python 3.6 and above**
+3. **python 3.12 and above**
 4. **GHC 8.6.5**
 5. **Cabal 3.4.1**
 ***
