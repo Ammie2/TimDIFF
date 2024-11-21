@@ -12,7 +12,7 @@ TimDIFF reported 15 faults (Vivado and Icarus Verilog), of which 14 were confirm
 
 ### Reported bugs
 Our reported bugs is in bugs.You can visit the website of vivado and Iverilog to reproduce these bugs.
-```markdown
+```
 | #  | Bug-ID    | Tool    | Summary                                                                                     | Type |
 |----|-----------|---------|---------------------------------------------------------------------------------------------|------|
 | 1  | 7oSPvGSAW | Vivado  | Segfault and Crash During Vivado Synthesis Due to Built-in Function HARTH                   | C    |
@@ -42,9 +42,9 @@ Our reported bugs is in bugs.You can visit the website of vivado and Iverilog to
 3. **python 3.12 and above**
 ***
 
-# Project Structure
+## Project Structure
 ```
--bug: The bug IDs and their corresponding RTL designs are provided in bug. You can use these IDs to investigate related bugs in the official repositories of [Icarus Verilog (Iverilog)](https://github.com/steveicarus/iverilog/issues) and [Vivado](https://adaptivesupport.amd.com/s/?language=en_US).
+-bug: The bug IDs and their corresponding RTL designs are provided in here. 
 -mutators:5 mutation operators
   -al_clk.py: Removal of Clock Control Block
   -assign.py: Transformation of Assignment Method
