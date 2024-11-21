@@ -14,7 +14,7 @@ def copy_and_rename_file(original_filename, new_filename):
         print(f"File not found: {original_filename}")
 
 
-dir_name = '/home/serene/tsmc/cwz/xx2'
+dir_name = 'test1'
 
 
 def replace_and_write(input_file, output_file, old_str, new_str):
