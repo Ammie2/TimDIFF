@@ -11,7 +11,7 @@ TimDIFF reported 15 faults (Vivado and Icarus Verilog), of which 14 were confirm
 ***
 
 ### Reported bugs
-Our reported bugs is in [Bugs](https://github.com/Ammie2/TimDIFF/bug).You can visit the website of vivado and Iverilog to reproduce these bugs.
+Our reported bugs is in bugs.You can visit the website of vivado and Iverilog to reproduce these bugs.
 ```markdown
 | #  | Bug-ID    | Tool    | Summary                                                                                     | Type |
 |----|-----------|---------|---------------------------------------------------------------------------------------------|------|
