@@ -35,10 +35,6 @@ Our reported bugs is in bugs.You can visit the website of vivado and Iverilog to
   - `C`: Crash
   - `I`: Inconsistency
 
-### Datatest:
-We use Verismith to create our data test. So if you want to generate Verilog model test you can visit [Veismith](https://github.com/ymherklotz/verismith)
-##### [Verismith: Verilog Fuzzer to test the major verilog compilers by generating random, valid and deterministic Verilog.](https://github.com/ymherklotz/verismith)
-***
 
 **Environment dependencies:**
 1. **Vivado 2023.2 and above**
