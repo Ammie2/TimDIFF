@@ -48,5 +48,5 @@ We use Verismith to create our data test. So if you want to generate Verilog mod
 
 ***
 ### Hello World
-Before starting, place your seed RTL design in ./test1. Modify the mutation operators within '''4m_run.py''' to specify the operations.Then run '''4m_run.py''' and '''delay_run.py''' to test the FPGA timing simulation tool.
+Before starting, place your seed RTL design in ./test1. Modify the mutation operators within 4m_run.py to specify the operations.Then run 4m_run.py and delay_run.py to test the FPGA timing simulation tool.
 
