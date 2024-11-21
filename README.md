@@ -1,5 +1,5 @@
 # TimDIFF
-## [TimDIFF:Enhancing Timing Difference Guided Fuzzing via RTL Design Mutation](https://github.com/Ammie2/TimDIFF/README.md)
+## [TimDIFF:Enhancing Timing Difference Guided Fuzzing via RTL Design Mutation](https://github.com/Ammie2/TimDIFF)
 ***
 ### Our Works
 FPGA timing simulation tools provide simulation and verification capabilities for RTL designs, helping engineers detect and resolve RTL design faults before deployment.
