@@ -62,4 +62,7 @@ Our reported bugs is in bugs.You can visit the website of vivado and Iverilog to
 ***
 
 ### Hello World
-Before starting, place your seed RTL design in ``./test1``. Specify the mutation operators to be executed in ``4m_run.py``. If necessary, use ``re_bench.py`` to modify testbench.v. Finally, run ``python 4m_run.py`` or ``python delay_run.py`` to test the FPGA timing simulation tool.
+1.**Before starting, place your seed RTL design in ``./test1``.**
+2.**Specify the mutation operators to be executed in ``4m_run.py``.**
+3.**If necessary, use ``re_bench.py`` to modify testbench.v.**
+4.**Finally, run ``python 4m_run.py`` or ``python delay_run.py`` to test the FPGA timing simulation tool.**
