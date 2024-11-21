@@ -42,7 +42,25 @@ Our reported bugs is in bugs.You can visit the website of vivado and Iverilog to
 3. **python 3.12 and above**
 ***
 
+# Project Structure
+```
+-bug: The bug IDs and their corresponding RTL designs are provided in bug. You can use these IDs to investigate related bugs in the official repositories of [Icarus Verilog (Iverilog)](https://github.com/steveicarus/iverilog/issues) and [Vivado](https://adaptivesupport.amd.com/s/?language=en_US).
+-mutators:5 mutation operators
+  -al_clk.py: Removal of Clock Control Block
+  -assign.py: Transformation of Assignment Method
+  -ctrl_flow.py: Removal of Control Flow Branch
+  -de_lay.py: Filtering Unresponsive Pulse from Inertial Delay
+  -expan.py: Modification of Bit-width Allocation
+-module_data: Used by al_clk.py
+-4m_run.py: Executes four mutation operators with the simulation tool
+-control.py: Runs the simulation tool
+-delay_run.py: Executes delay mutation operators with the simulation tool
+-re_bench.py: Modifies testbench.v
+-syn.py: Executes Vivado synthesis commands
+-utils.py: General functions
+```
 ***
+
 ### Hello World
 Before starting, place your seed RTL design in ./test1. Modify the mutation operators within 4m_run.py to specify the operations.Then run 4m_run.py and delay_run.py to test the FPGA timing simulation tool.
 
