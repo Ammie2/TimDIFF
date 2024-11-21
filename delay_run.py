@@ -69,7 +69,7 @@ def run_iverilog(dir_name, filename_dir, filename, filename_testbench, i):
 
 # Main function
 def main():
-    dir_name = '/home/database/cwz/test8'
+    dir_name = 'test1'
     numbers = utils.count_subdirectories(dir_name)
     print(numbers)
     for i in range(numbers):
