@@ -5,7 +5,7 @@ import syn
 
 
 
-dir_name = '/media/user/data/cwz/database/test1'
+dir_name = 'test1'
 numbers = len([lists for lists in os.listdir(dir_name) if os.path.isdir(os.path.join(dir_name, lists))])
 for i in range(numbers):
     print('iverilog start')
