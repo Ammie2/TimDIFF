@@ -42,7 +42,7 @@ Our reported bugs is in bugs.You can visit the website of vivado and Iverilog to
 3. **python 3.12 and above**
 ***
 
-## Project Structure
+### Project Structure
 ```
 -bug: The bug IDs and their corresponding RTL designs are provided in here. 
 -mutators:5 mutation operators
@@ -61,7 +61,7 @@ Our reported bugs is in bugs.You can visit the website of vivado and Iverilog to
 ```
 ***
 
-### Hello World
+### **Hello World**
 1.**Before starting, place your seed RTL design in ``./test1``.**
 2.**Specify the mutation operators to be executed in ``4m_run.py``.**
 3.**If necessary, use ``re_bench.py`` to modify testbench.v.**
