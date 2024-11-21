@@ -44,12 +44,9 @@ We use Verismith to create our data test. So if you want to generate Verilog mod
 1. **Vivado 2023.2 and above**
 2. **Iverilog 11.0(stable) and above**
 3. **python 3.12 and above**
-4. **GHC 8.6.5**
-5. **Cabal 3.4.1**
 ***
-
 
 ***
 ### Hello World
-
+Before starting, place your seed RTL design in test1. Modify the mutation operators within 4m_run.py to specify the operations.Then run python 4m_run.py and delay_run.py to test the FPGA timing simulation tool.
 
