@@ -1,1 +1,47 @@
+[info]
+  commit = "62fa6870cc988620152437538501be97549ac12a"
+  version = "1.0.0.2"
+
+[probability]
+  expr.binary = 5
+  expr.concatenation = 3
+  expr.number = 1
+  expr.rangeselect = 5
+  expr.signed = 5
+  expr.string = 0
+  expr.ternary = 5
+  expr.unary = 5
+  expr.unsigned = 5
+  expr.variable = 5
+  moditem.assign = 8
+  moditem.combinational = 1
+  moditem.instantiation = 1
+  moditem.sequential = 3
+  module.drop_output = 0
+  module.keep_output = 1
+  statement.blocking = 0
+  statement.conditional = 5
+  statement.forloop = 7
+  statement.nonblocking = 3
+
+[property]
+  determinism = 1
+  module.depth = 6
+  module.max = 10
+  nondeterminism = 0
+  output.combine = false
+  sample.method = "random"
+  sample.size = 15
+  size = 15
+  statement.depth = 5
+
+[[synthesiser]]
+  description = "yosys"
+  name = "yosys"
+  output = "syn_yosys.v"
+
+[[synthesiser]]
+  description = "vivado"
+  name = "vivado"
+  output = "syn_vivado.v"
 
